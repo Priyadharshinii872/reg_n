@@ -1,0 +1,153 @@
+html{
+    height: 100%;
+    background-color: #200032;
+}
+
+body{
+    height: 100%;
+    background-color: #200032;
+    background-image: url("https://img.freepik.com/premium-vector/network-connection-background-abstract-style_23-2148875738.jpg");
+    background-size: cover;
+    position: relative;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    margin: 0;
+}
+
+.form-container {
+    border: 1px solid #ccc; /* Add a border to create the outer box */
+    padding-top: 50px;
+    padding: 20px; /* Add padding to create space between the outer box and its contents */
+    width: 800px; /* Set the desired width for the outer box */
+
+    margin-top: 40px;
+    margin-left: 330px;
+    margin-bottom: 40px;
+    background-color: #f9f9f9; /* Add a background color for the outer box */
+    background-image: url("https://img.freepik.com/premium-vector/network-connection-background-abstract-style_23-2148875738.jpg");
+    background-size: cover;
+    position: relative;
+    
+}
+
+
+h1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    color: antiquewhite;
+    
+}
+
+marquee{
+    font-family:cursive;
+    margin-top: 3px;
+    margin: 10px;
+    margin-bottom: 30px;
+    color: antiquewhite;
+}
+
+label{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 30px;
+    color: antiquewhite;
+  
+}
+
+.email label{
+    padding: 30px;
+    padding-right: 35px;
+    color: antiquewhite;
+}
+
+
+.gender{
+    padding: 5px;
+    margin-right: 20px;
+    color: antiquewhite;
+}
+
+.male{
+    padding: 1px;
+    margin-left: 25px;
+}
+
+.female{
+    padding: 1px;
+    margin-left: 15px;
+}
+
+.ald{
+    margin-bottom: 50px;
+    color: antiquewhite;
+}
+
+
+.fname label{
+    padding: 100px;
+}
+
+
+input[type=text]
+{
+    padding: 10px;
+    margin: 5px;
+}
+input[type=password]
+{
+    padding: 10px;
+    margin: 5px;
+}
+
+input[name=email]
+{
+    margin-left: 30px;
+}
+
+input[type=radio]
+{
+    padding: 2px;
+}
+
+
+
+.gender input[type="radio"]
+{
+    margin-right: 1px;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  
+    border: 2px solid #9334db; /* Border color */
+}
+
+
+.reg{
+    background-color: #9334db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+.reg:hover{
+    background-color: #47b6ff;
+}
+.log{
+    background-color: #47b6ff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin: 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+.log:hover {
+    background-color: #9334db; 
+}
+
